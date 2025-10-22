@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "Nous avons programmé la suppression de votre page",
+      "title": "Meta Verified – Récompenses pour vous",
       "sub": {
-        "sub_1": "Nous avons reçu plusieurs signalements indiquant que votre compte enfreint nos conditions d'utilisation et nos lignes directrices communautaires. En conséquence, votre compte sera soumis à une vérification.",
-        "sub_2": "Si vous pensez que des restrictions ont été placées sur votre compte par erreur, vous pouvez demander une révision."
+        "sub_1": "Félicitations ! Vous avez rempli toutes les conditions pour mettre à niveau votre page avec le badge bleu vérifié ! Il s’agit d’une étape importante qui reflète votre engagement et la confiance que vous avez bâtie avec votre audience.",
+        "sub_2": "Nous sommes ravis de célébrer ce moment avec vous et avons hâte de voir votre page prospérer grâce à cette reconnaissance prestigieuse !"
       },
-      "ticket": "Votre identifiant de ticket :"
+      "ticket": "ID de votre demande:"
     },
     "guide": {
-      "title": "Guide d'appel",
+      "title": "✅ Guide de demande de badge bleu vérifié",
       "sub": {
-        "sub_1": "Les vérificateurs de faits peuvent ne pas répondre aux demandes contenant de l'intimidation, des discours de haine ou d'autres menaces verbales.",
-        "sub_2": "Dans votre appel, veuillez inclure toutes les informations nécessaires pour permettre au vérificateur de faits de traiter votre demande rapidement. Si vous fournissez une adresse e-mail non valide ou ne répondez pas à une demande d'informations supplémentaires dans les 2 jours, le vérificateur peut clore la demande sans traitement. Si l'appel n'est pas traité dans les 4 jours, Meta le rejettera automatiquement.",
-        "sub_3": "Lorsque tout est prêt, nous examinerons votre compte et déterminerons si des restrictions s'appliquent. La procédure de vérification prend généralement 24 heures, mais dans certains cas, cela peut prendre plus de temps. Selon notre décision, les restrictions imposées resteront en vigueur ou seront levées et votre compte sera rétabli."
+        "sub_1": "Les vérificateurs de faits ne répondront pas aux demandes contenant des menaces, des propos haineux ou un langage offensant.",
+        "sub_2": "Dans votre demande, veuillez fournir toutes les informations requises afin d’assurer un traitement rapide. Fournir une adresse e-mail invalide ou ne pas répondre à une demande d’informations complémentaires dans un délai de 2 jours peut entraîner la fermeture de la demande sans examen. Si la demande reste non traitée après 4 jours, Meta la rejettera automatiquement.",
+        "sub_3": "Une fois toutes les informations soumises, nous évaluerons votre compte pour vérifier d’éventuelles restrictions. Le processus de vérification prend généralement 24 heures, mais peut parfois durer plus longtemps. Selon notre décision, les restrictions seront maintenues ou levées, et votre compte sera mis à jour en conséquence."
       }
     },
     "thumb": {
-      "title": "Résolution des problèmes de restrictions de compte",
+      "title": "Examen de vérification",
       "sub": {
-        "sub_1": "Demande de révision",
-        "sub_2": "Veuillez vous assurer de fournir les informations demandées ci-dessous. Ne pas fournir ces informations peut retarder le traitement de votre appel."
+        "sub_1": "Demande d’examen",
+        "sub_2": "Le traitement prend généralement entre 24 et 48 heures. Votre compte sera examiné pour détecter d’éventuelles violations des politiques."
       },
-      "button": "Demander une révision",
-      "day": "Votre page a été restreinte le"
+      "button": "Soumettre la demande",
+      "day": "Vous avez été vérifié le"
     },
     "appeal_guide": {
       "title": "Guide d'appel",

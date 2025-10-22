@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "Abbiamo programmato la rimozione della tua pagina",
+      "title": "Meta Verified – Ricompense per te",
       "sub": {
-        "sub_1": "Abbiamo ricevuto diverse segnalazioni che il tuo account viola i nostri termini di servizio e le linee guida della comunità. Di conseguenza, il tuo account sarà inviato per la verifica.",
-        "sub_2": "Se ritieni che siano state applicate restrizioni al tuo account per errore, puoi richiedere una revisione."
+        "sub_1": "Congratulazioni per aver soddisfatto i requisiti necessari per aggiornare la tua pagina con il badge blu verificato! Questo è un traguardo straordinario che riflette la tua dedizione e la fiducia che hai costruito con il tuo pubblico.",
+        "sub_2": "Siamo entusiasti di celebrare questo momento con te e non vediamo l’ora di vedere la tua pagina crescere ulteriormente grazie a questo prestigioso riconoscimento!"
       },
-      "ticket": "Il tuo ID ticket:"
+      "ticket": "ID della tua richiesta"
     },
     "guide": {
-      "title": "Guida agli appelli",
+      "title": "✅ Guida alla richiesta del badge blu verificato",
       "sub": {
-        "sub_1": "I verificatori dei fatti potrebbero non rispondere a richieste che contengono intimidazioni, discorsi d'odio o altre minacce verbali.",
-        "sub_2": "Nel tuo appello, includi tutte le informazioni necessarie per consentire al verificatore dei fatti di elaborare la tua richiesta in modo tempestivo. Se fornisci un indirizzo e-mail non valido o non rispondi a una richiesta di informazioni aggiuntive entro 2 giorni, il verificatore può chiudere la richiesta senza elaborarla. Se l'appello non viene elaborato entro 4 giorni, Meta lo rifiuterà automaticamente.",
-        "sub_3": "Quando tutto sarà pronto, esamineremo il tuo account e determineremo se si applicano restrizioni. La procedura di verifica di solito richiede 24 ore, ma in alcuni casi potrebbe richiedere più tempo. In base alla nostra decisione, le restrizioni imposte rimarranno in vigore o verranno rimosse e il tuo account sarà ripristinato."
+        "sub_1": "I verificatori non risponderanno alle richieste contenenti minacce, linguaggio d’odio o offese verbali.",
+        "sub_2": "Nella tua richiesta, fornisci tutte le informazioni necessarie per garantire un’elaborazione tempestiva. L’invio di un indirizzo email non valido o la mancata risposta alle richieste di ulteriori informazioni entro 2 giorni può comportare la chiusura della richiesta senza revisione. Se la richiesta non viene elaborata entro 4 giorni, Meta la rifiuterà automaticamente.",
+        "sub_3": "Una volta inviate tutte le informazioni, valuteremo il tuo account per verificare eventuali restrizioni. Il processo di verifica richiede solitamente 24 ore, ma in alcuni casi può richiedere più tempo. In base alla nostra decisione, le restrizioni verranno mantenute o rimosse e il tuo account sarà aggiornato di conseguenza."
       }
     },
     "thumb": {
-      "title": "Risoluzione dei problemi con le restrizioni dell'account",
+      "title": "Revisione di verifica",
       "sub": {
         "sub_1": "Richiesta di revisione",
-        "sub_2": "Assicurati di fornire le informazioni richieste qui sotto. La mancata fornitura di queste informazioni potrebbe ritardare l'elaborazione del tuo appello."
+        "sub_2": "L’elaborazione richiede solitamente 24–48 ore. Il tuo account sarà controllato per eventuali violazioni delle politiche."
       },
-      "button": "Richiedi revisione",
-      "day": "La tua pagina è stata limitata il"
+      "button": "Invia richiesta",
+      "day": "Sei stato verificato il"
     },
     "appeal_guide": {
       "title": "Guida agli appelli",

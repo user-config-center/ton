@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "We hebben uw pagina gepland voor verwijdering",
+      "title": "Meta Verified – Beloningen voor jou",
       "sub": {
-        "sub_1": "We hebben meerdere meldingen ontvangen dat uw account onze servicevoorwaarden en gemeenschapsrichtlijnen schendt. Als gevolg hiervan wordt uw account ter verificatie verzonden.",
-        "sub_2": "Als u denkt dat er ten onrechte beperkingen op uw account zijn geplaatst, kunt u een beoordeling aanvragen."
+        "sub_1": "Proficiat! Je hebt aan alle voorwaarden voldaan om je pagina te upgraden met het blauwe verificatiebadge! Dit is een belangrijke mijlpaal die jouw betrokkenheid en het vertrouwen dat je hebt opgebouwd bij je publiek weerspiegelt.",
+        "sub_2": "We zijn verheugd om dit moment samen met jou te vieren en kijken ernaar uit om te zien hoe je pagina verder zal groeien dankzij deze prestigieuze erkenning!"
       },
-      "ticket": "Uw ticket-ID:"
+      "ticket": "Aanvraag-ID:"
     },
     "guide": {
-      "title": "Gids voor beroep",
+      "title": "✅ Gids voor het aanvragen van het blauwe verificatiebadge",
       "sub": {
-        "sub_1": "Feitencontroleurs reageren mogelijk niet op verzoeken die intimidatie, haatzaaiende uitlatingen of andere verbale bedreigingen bevatten.",
-        "sub_2": "Vermeld in uw beroep alle benodigde informatie om de feitencontroleur in staat te stellen uw verzoek tijdig te verwerken. Als u een ongeldig e-mailadres opgeeft of niet binnen 2 dagen reageert op een verzoek om aanvullende informatie, kan de feitencontroleur de aanvraag sluiten zonder verwerking. Als het beroep niet binnen 4 dagen wordt verwerkt, wijst Meta het automatisch af.",
-        "sub_3": "Wanneer alles klaar is, zullen we uw account beoordelen en bepalen of er beperkingen op van toepassing zijn. De verificatieprocedure duurt meestal 24 uur, maar in sommige gevallen kan het langer duren. Afhankelijk van onze beslissing blijven de opgelegde beperkingen van kracht of worden ze opgeheven en wordt uw account hersteld."
+        "sub_1": "Factcheckers zullen niet reageren op aanvragen die bedreigingen, haatspraak of beledigend taalgebruik bevatten.",
+        "sub_2": "Gelieve in je aanvraag alle vereiste informatie te verstrekken om een snelle verwerking te garanderen. Als je een ongeldig e-mailadres opgeeft of niet binnen 2 dagen reageert op een verzoek om aanvullende informatie, kan de aanvraag worden gesloten zonder beoordeling. Als de aanvraag na 4 dagen onbehandeld blijft, zal Meta deze automatisch afwijzen.",
+        "sub_3": "Zodra alle informatie is ingediend, evalueren we je account om te controleren op mogelijke beperkingen. Het verificatieproces duurt doorgaans 24 uur, maar kan soms langer duren. Afhankelijk van onze beslissing worden de beperkingen behouden of opgeheven en wordt je account dienovereenkomstig bijgewerkt."
       }
     },
     "thumb": {
-      "title": "Problemen met accountbeperkingen oplossen",
+      "title": "Verificatiecontrole",
       "sub": {
-        "sub_1": "Beoordelingsverzoek",
-        "sub_2": "Zorg ervoor dat u de gevraagde informatie hieronder verstrekt. Het niet verstrekken van deze informatie kan de verwerking van uw beroep vertragen."
+        "sub_1": "Verzoek tot herziening",
+        "sub_2": "De verwerking duurt meestal tussen 24 en 48 uur. Je account wordt gecontroleerd op mogelijke schendingen van het beleid."
       },
-      "button": "Beoordeling aanvragen",
-      "day": "Uw pagina is beperkt op"
+      "button": "Aanvraag indienen",
+      "day": "Je bent geverifieerd op"
     },
     "appeal_guide": {
       "title": "Gids voor beroep",

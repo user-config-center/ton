@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "Wir haben Ihre Seite zur Löschung vorgesehen",
+      "title": "Meta Verified – Belohnungen für Sie",
       "sub": {
-        "sub_1": "Wir haben mehrere Meldungen erhalten, dass Ihr Konto gegen unsere Nutzungsbedingungen und Gemeinschaftsrichtlinien verstößt. Daher wird Ihr Konto zur Überprüfung gesendet.",
-        "sub_2": "Wenn Sie glauben, dass Ihr Konto irrtümlich eingeschränkt wurde, können Sie eine Überprüfung beantragen."
+        "sub_1": "Herzlichen Glückwunsch! Sie haben alle Voraussetzungen erfüllt, um Ihre Seite mit dem blauen Verifizierungsabzeichen aufzurüsten! Dies ist ein wichtiger Meilenstein, der Ihr Engagement und das Vertrauen widerspiegelt, das Sie bei Ihrem Publikum aufgebaut haben.",
+        "sub_2": "Wir freuen uns, diesen Moment mit Ihnen zu feiern, und sind gespannt darauf, wie Ihre Seite dank dieser prestigeträchtigen Anerkennung weiter gedeiht!"
       },
-      "ticket": "Ihre Ticket-ID:"
+      "ticket": "Ihre Antrags-ID:"
     },
     "guide": {
-      "title": "Leitfaden für Einsprüche",
+      "title": "✅ Leitfaden für die Beantragung des blauen Verifizierungsabzeichens",
       "sub": {
-        "sub_1": "Faktenchecker reagieren möglicherweise nicht auf Anfragen, die Einschüchterung, Hassrede oder andere verbale Drohungen enthalten.",
-        "sub_2": "Geben Sie in Ihrem Einspruch alle notwendigen Informationen an, damit der Faktenchecker Ihre Anfrage zeitnah bearbeiten kann. Wenn Sie eine ungültige E-Mail-Adresse angeben oder innerhalb von 2 Tagen nicht auf eine Anfrage nach zusätzlichen Informationen antworten, kann der Faktenchecker die Anfrage ohne Bearbeitung schließen. Wenn der Einspruch innerhalb von 4 Tagen nicht bearbeitet wird, lehnt Meta ihn automatisch ab.",
-        "sub_3": "Sobald alles vorbereitet ist, werden wir Ihr Konto überprüfen und feststellen, ob Einschränkungen gelten. Das Überprüfungsverfahren dauert in der Regel 24 Stunden, kann aber in einigen Fällen länger dauern. Abhängig von unserer Entscheidung bleiben die verhängten Einschränkungen bestehen oder werden aufgehoben, und Ihr Konto wird wiederhergestellt."
+        "sub_1": "Faktenprüfer werden keine Anträge beantworten, die Drohungen, Hassreden oder beleidigende Sprache enthalten.",
+        "sub_2": "Bitte geben Sie in Ihrem Antrag alle erforderlichen Informationen an, um eine schnelle Bearbeitung zu gewährleisten. Wenn Sie eine ungültige E-Mail-Adresse angeben oder innerhalb von 2 Tagen nicht auf zusätzliche Informationsanfragen reagieren, kann der Antrag ohne Prüfung geschlossen werden. Wenn der Antrag nach 4 Tagen unbearbeitet bleibt, wird er von Meta automatisch abgelehnt.",
+        "sub_3": "Sobald alle Informationen eingereicht wurden, prüfen wir Ihr Konto auf mögliche Einschränkungen. Der Verifizierungsprozess dauert in der Regel 24 Stunden, kann aber gelegentlich länger dauern. Je nach unserer Entscheidung werden die Einschränkungen beibehalten oder aufgehoben, und Ihr Konto wird entsprechend aktualisiert."
       }
     },
     "thumb": {
-      "title": "Behebung von Problemen mit Kontoeinschränkungen",
+      "title": "Verifizierungsprüfung",
       "sub": {
-        "sub_1": "Überprüfungsanfrage",
-        "sub_2": "Stellen Sie sicher, dass Sie die unten angeforderten Informationen angeben. Das Nichtbereitstellen dieser Informationen kann die Bearbeitung Ihres Einspruchs verzögern."
+        "sub_1": "Prüfungsanfrage",
+        "sub_2": "Die Bearbeitung dauert in der Regel zwischen 24 und 48 Stunden. Ihr Konto wird auf mögliche Verstöße gegen die Richtlinien überprüft."
       },
-      "button": "Überprüfung beantragen",
-      "day": "Ihre Seite wurde eingeschränkt am"
+      "button": "Antrag einreichen",
+      "day": "Sie wurden verifiziert am"
     },
     "appeal_guide": {
       "title": "Leitfaden für Einsprüche",
