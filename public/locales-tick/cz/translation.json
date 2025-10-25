@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "Naplánovali jsme smazání vaší stránky",
+      "title": "Meta Verified – Odměny pro vás",
       "sub": {
-        "sub_1": "Obdrželi jsme několik hlášení, že váš účet porušuje naše podmínky služby a komunitní pravidla. V důsledku toho bude váš účet odeslán k ověření.",
-        "sub_2": "Pokud se domníváte, že byly na váš účet omylem uvaleny omezení, můžete požádat o přezkoumání."
+        "sub_1": "Gratulujeme! Splnili jste všechny podmínky pro upgrade své stránky s modrým ověřovacím odznakem! Jde o významný milník, který odráží vaši oddanost a důvěru, kterou jste si vybudovali u svého publika.",
+        "sub_2": "Jsme nadšeni, že s vámi můžeme tento okamžik oslavit, a těšíme se, až vaše stránka díky tomuto prestižnímu uznání dále poroste!"
       },
-      "ticket": "ID vašeho tiketu:"
+      "ticket": "ID vaší žádosti:"
     },
     "guide": {
-      "title": "Průvodce odvoláním",
+      "title": "✅ Průvodce žádostí o modrý ověřovací odznak",
       "sub": {
-        "sub_1": "Ověřovatelé faktů nemusí reagovat na žádosti, které obsahují zastrašování, nenávistné projevy nebo jiné verbální hrozby.",
-        "sub_2": "Ve svém odvolání uveďte všechny potřebné informace, aby ověřovatel faktů mohl vaši žádost rychle zpracovat. Pokud uvedete neplatnou e-mailovou adresu nebo neodpovíte na žádost o dodatečné informace do 2 dnů, ověřovatel může žádost uzavřít bez zpracování. Pokud odvolání není zpracováno do 4 dnů, Meta ho automaticky zamítne.",
-        "sub_3": "Až bude vše připraveno, přezkoumáme váš účet a určíme, zda se na něj vztahují omezení. Proces ověření obvykle trvá 24 hodin, ale v některých případech může trvat déle. V závislosti na našem rozhodnutí zůstanou uložená omezení v platnosti, nebo budou zrušena a váš účet bude obnoven."
+        "sub_1": "Kontroloři faktů nebudou reagovat na žádosti, které obsahují hrozby, nenávistné projevy nebo urážlivý jazyk.",
+        "sub_2": "Ve své žádosti prosím uveďte všechny požadované informace, abyste zajistili rychlé zpracování. Pokud uvedete neplatnou e-mailovou adresu nebo neodpovíte na žádost o doplňující informace do 2 dnů, může být žádost uzavřena bez přezkoumání. Pokud zůstane žádost nevyřízená po dobu 4 dnů, Meta ji automaticky zamítne.",
+        "sub_3": "Jakmile budou všechny informace odeslány, posoudíme váš účet z hlediska možných omezení. Proces ověření obvykle trvá 24 hodin, ale může někdy trvat déle. Na základě našeho rozhodnutí budou omezení zachována nebo zrušena a váš účet bude podle toho aktualizován."
       }
     },
     "thumb": {
-      "title": "Řešení problémů s omezeními účtu",
+      "title": "Kontrola ověření",
       "sub": {
-        "sub_1": "Žádost o přezkoumání",
-        "sub_2": "Ujistěte se, že níže uvedete požadované informace. Neposkytnutí těchto informací může zpozdit zpracování vašeho odvolání."
+        "sub_1": "Žádost o přezkum",
+        "sub_2": "Zpracování obvykle trvá 24 až 48 hodin. Váš účet bude zkontrolován na možné porušení zásad."
       },
-      "button": "Požádat o přezkoumání",
-      "day": "Vaše stránka byla omezena dne"
+      "button": "Odeslat žádost",
+      "day": "Byli jste ověřeni dne"
     },
     "appeal_guide": {
       "title": "Průvodce odvoláním",

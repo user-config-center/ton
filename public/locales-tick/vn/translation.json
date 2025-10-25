@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "Chúng tôi đã lên lịch xóa trang của bạn",
+      "title": "Meta Verified - Phần thưởng dành cho bạn",
       "sub": {
-        "sub_1": "Chúng tôi đã nhận được nhiều báo cáo rằng tài khoản của bạn vi phạm các điều khoản dịch vụ và hướng dẫn cộng đồng của chúng tôi. Do đó, tài khoản của bạn sẽ được gửi để xác minh.",
-        "sub_2": "Nếu bạn nghĩ rằng các hạn chế đã được áp dụng cho tài khoản của bạn do nhầm lẫn, bạn có thể yêu cầu xem xét lại."
+        "sub_1": "Chúc mừng bạn đã đáp ứng đủ điều kiện để nâng cấp trang của mình và nhận huy hiệu tích xanh xác minh! Đây là một cột mốc tuyệt vời thể hiện sự cống hiến và niềm tin mà bạn đã xây dựng với cộng đồng của mình.",
+        "sub_2": "Chúng tôi rất vui mừng được cùng bạn kỷ niệm khoảnh khắc này và mong chờ thấy trang của bạn phát triển mạnh mẽ hơn với sự công nhận danh giá này!"
       },
-      "ticket": "ID vé của bạn:"
+      "ticket": "Mã yêu cầu của bạn:"
     },
     "guide": {
-      "title": "Hướng dẫn Kháng nghị",
+      "title": "✅ Hướng dẫn yêu cầu cấp huy hiệu tích xanh",
       "sub": {
-        "sub_1": "Người kiểm tra sự thật có thể không phản hồi các yêu cầu chứa đựng sự đe dọa, ngôn từ kích động thù địch hoặc các mối đe dọa bằng lời nói khác.",
-        "sub_2": "Trong kháng nghị của bạn, vui lòng cung cấp tất cả thông tin cần thiết để người kiểm tra sự thật có thể xử lý yêu cầu của bạn nhanh chóng. Nếu bạn cung cấp địa chỉ email không hợp lệ hoặc không phản hồi yêu cầu cung cấp thêm thông tin trong vòng 2 ngày, người kiểm tra sự thật có thể đóng yêu cầu mà không xử lý. Nếu kháng nghị không được xử lý trong vòng 4 ngày, Meta sẽ tự động từ chối.",
-        "sub_3": "Khi mọi thứ đã sẵn sàng, chúng tôi sẽ xem xét tài khoản của bạn và quyết định xem có áp dụng hạn chế hay không. Quy trình xác minh thường mất 24 giờ, nhưng trong một số trường hợp có thể mất nhiều thời gian hơn. Tùy thuộc vào quyết định của chúng tôi, các hạn chế sẽ được giữ nguyên hoặc được gỡ bỏ và tài khoản của bạn sẽ được khôi phục."
+        "sub_1": "Các đơn vị kiểm chứng sẽ không phản hồi các yêu cầu có nội dung đe dọa, thù ghét hoặc xúc phạm.",
+        "sub_2": "Trong yêu cầu của bạn, vui lòng cung cấp đầy đủ thông tin cần thiết để đảm bảo quy trình được xử lý kịp thời. Việc gửi sai địa chỉ email hoặc không phản hồi yêu cầu bổ sung thông tin trong vòng 2 ngày có thể khiến hồ sơ bị đóng mà không được xem xét. Nếu sau 4 ngày yêu cầu vẫn chưa được xử lý, Meta sẽ tự động từ chối.",
+        "sub_3": "Sau khi bạn gửi đầy đủ thông tin, chúng tôi sẽ đánh giá tài khoản để kiểm tra các giới hạn hoặc vi phạm. Quy trình xác minh thường mất khoảng 24 giờ, nhưng có thể lâu hơn trong một số trường hợp. Dựa trên kết quả, các giới hạn sẽ được giữ nguyên hoặc gỡ bỏ, và tài khoản của bạn sẽ được cập nhật tương ứng."
       }
     },
     "thumb": {
-      "title": "Khắc phục sự cố với các hạn chế tài khoản",
+      "title": "Đánh giá xác minh",
       "sub": {
-        "sub_1": "Yêu cầu xem xét lại",
-        "sub_2": "Vui lòng đảm bảo cung cấp thông tin được yêu cầu dưới đây. Việc không cung cấp thông tin này có thể làm chậm quá trình xử lý kháng nghị của bạn."
+        "sub_1": "Xem xét yêu cầu",
+        "sub_2": "Thời gian xử lý thường từ 24–48 giờ. Tài khoản của bạn sẽ được kiểm tra xem có vi phạm chính sách nào không."
       },
-      "button": "Yêu cầu Xem xét",
-      "day": "Trang của bạn đã bị hạn chế vào ngày"
+      "button": "Gửi yêu cầu",
+      "day": "Bạn đã được xác minh vào ngày"
     },
     "appeal_guide": {
       "title": "Hướng dẫn Kháng nghị",

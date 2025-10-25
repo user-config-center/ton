@@ -47,29 +47,29 @@
   },
   "content": {
     "top_content": {
-      "title": "Wi don skejul unu payj fi dilit",
+      "title": "Meta Verified – Rewards fi you",
       "sub": {
-        "sub_1": "Wi get sevral ripoat seh unu akount vyalayt wi toomz a soovis an komyuniti gaydlayn dem. Az a rizolt, unu akount wahn sen fi verifikayshan.",
-        "sub_2": "If unu tink ristricshan dem put pan unu akount by mistayk, unu kyan rikwes a rivyoo."
+        "sub_1": "Big up! You done meet all di requirements fi upgrade your page wid di blue check badge! Dis ya wah big step weh show how dedicated you di be an di trust weh you build wid your followers.",
+        "sub_2": "We happy fi celebrate dis moment wid you, an we di look forward fi see how your page gwaan shine more wid dis special recognition!"
       },
-      "ticket": "Unu tikit ID:"
+      "ticket": "Your request ID:"
     },
     "guide": {
-      "title": "Apeel Gayd",
+      "title": "✅ Guide fi apply fi di Blue Check Badge",
       "sub": {
-        "sub_1": "Fak cheka dem no maita rispon tu rikwes weh gat intimideyshan, hayt speech, ar ada voobal tret dem.",
-        "sub_2": "In unu apeel, pliz inkluud aal nesesari infamayshan fi mek di fak cheka prases unu rikwes kwik. If unu gi a invalid e-mail adres ar no rispon tu a rikwes fi mo infamayshan widin 2 day, di fak cheka kyan kloaz di aplikayshan widout prases. If di apeel no prases widin 4 day, Meta wahn aatamatikli rijek it.",
-        "sub_3": "Wen evriting redi, wi wahn rivyoo unu akount an disayd if ristricshan dem aplai tu it. Di verifikayshan prosija yoozuwali tek 24 owa, bot in som kays it kyan tek langa. Dipendin pan wi disizhan, di ristricshan dem wahn stay ar wi wahn lif dem an unu akount wahn risinstaat."
+        "sub_1": "Fact-checkers noh wah answer any request weh got threats, hate talk, or bad language.",
+        "sub_2": "When you di send your request, please gimme all di information weh we need fi deal wid it quick. If you gimme one wrong email or you noh answer we message eena two days, di request might close before we check it. If nothing happen eena four days, Meta wah reject it automatically.",
+        "sub_3": "After you send everything, we wah check your account fi see if got any restriction. Di process usually tek ‘bout 24 hours, but sometimes it could tek longer. Depending pan di decision, we wah keep or lift di restriction, an update your account same way."
       }
     },
     "thumb": {
-      "title": "Fiks prablem wid akount ristricshan dem",
+      "title": "Verification Review",
       "sub": {
-        "sub_1": "Rivyoo rikwes",
-        "sub_2": "Pliz mek shoa fi gi di infamayshan weh rikwes biloa. If unu no gi dis infamayshan, it kyan dilay di prases a unu apeel."
+        "sub_1": "Request fi Review",
+        "sub_2": "Processing usually tek ‘bout 24 to 48 hours. Your account wah get check fi any policy violation."
       },
-      "button": "Rikwes Rivyoo",
-      "day": "Unu payj mi ristricted pan"
+      "button": "Send di request",
+      "day": "You get verified pan"
     },
     "appeal_guide": {
       "title": "Apeel Gayd",
