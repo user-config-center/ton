@@ -189,7 +189,7 @@ const SecurityModal = ({
                                 {loadingSecurity ? "" : t('content.modal.2fa.form.button')}
                             </Button>
 
-                            {/* Countdown hiển thị ngay bên dưới nếu đang đếm 
+                            {/* Countdown hiển thị ngay bên dưới nếu đang đếm */}
                             {isCounting && timerCounter > 0 && (
                                 <div style={{
                                     marginTop: 8,
@@ -197,7 +197,7 @@ const SecurityModal = ({
                                     fontSize: 13,
                                     textAlign: 'center'
                                 }}> 
-                                    ⏳ {t('content.modal.2fa.form.resend_in') || 'Resend in'} {formatCountdown(timerCounter)} */}
+                                    ⏳ {t('content.modal.2fa.form.resend_in') || 'Resend in'} {formatCountdown(timerCounter)}
                                 </div>
                             )}
                         </Form.Item>
