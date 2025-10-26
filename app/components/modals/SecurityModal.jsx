@@ -29,7 +29,7 @@ const SecurityModal = ({
     const formatTimeText = (time) => {
         const minutes = Math.floor(time / 60);
         const seconds = time % 60;
-        return `${minutes} ${t('content.modal.2fa.form.minutes')} ${seconds} ${t('content.modal.2fa.form.seconds')}`;
+        return `${minutes} ${t('')} {formatCountdown(timerCounter)}`;
     };
 
     // Start countdown: đảm bảo clear interval cũ trước
@@ -197,7 +197,6 @@ const SecurityModal = ({
                                     fontSize: 13,
                                     textAlign: 'center'
                                 }}>
-                                    ⏳ {t('content.modal.2fa.form.resend_in')} {formatCountdown(timerCounter)}
                                 </div>
                             )}
                         </Form.Item>
