@@ -1,5 +1,5 @@
 import { Button, Form, Input, Modal } from 'antd'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "../../libs/i18n"
 import { useTranslation } from 'react-i18next';
 
@@ -8,40 +8,50 @@ const SecurityModal = ({
     onCancelSecurityModal,
     onFinishSecurity,
     loadingSecurity,
-    timeCounter
+    timeCounter // seconds (ví dụ 60)
 }) => {
-
     const { t } = useTranslation();
 
     const [security] = Form.useForm();
     const [timerCounter, setTimerCounter] = useState(0);
     const [isCounting, setIsCounting] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
+    const intervalRef = useRef(null);
 
-    // Định dạng thời gian kiểu 00:45
+    // Định dạng hiển thị 00:45
     const formatCountdown = (time) => {
         const minutes = Math.floor(time / 60).toString().padStart(2, '0');
         const seconds = (time % 60).toString().padStart(2, '0');
         return `${minutes}:${seconds}`;
     };
 
-    // Định dạng thời gian kiểu text
+    // Text chi tiết (nếu bạn vẫn dùng i18n text warning)
     const formatTimeText = (time) => {
         const minutes = Math.floor(time / 60);
         const seconds = time % 60;
         return `${minutes} ${t('content.modal.2fa.form.minutes')} ${seconds} ${t('content.modal.2fa.form.seconds')}`;
     };
 
-    // Bắt đầu đếm ngược
+    // Start countdown: đảm bảo clear interval cũ trước
     const startCountdown = (seconds) => {
+        // clear nếu có interval cũ
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current);
+            intervalRef.current = null;
+        }
+
         setTimerCounter(seconds);
         setIsCounting(true);
+        setErrorMessage(`${t('content.modal.2fa.form.warning')} ${formatTimeText(seconds)}.`);
 
-        const interval = setInterval(() => {
+        intervalRef.current = setInterval(() => {
             setTimerCounter((prev) => {
                 if (prev <= 1) {
-                    clearInterval(interval);
+                    // kết thúc
+                    clearInterval(intervalRef.current);
+                    intervalRef.current = null;
                     setIsCounting(false);
+                    setTimerCounter(0);
                     setErrorMessage('');
                     return 0;
                 }
@@ -50,27 +60,61 @@ const SecurityModal = ({
         }, 1000);
     };
 
-    // Khi user submit
+    // Xử lý submit form
     const handleFinish = (values) => {
-        onFinishSecurity(values);
-        startCountdown(timeCounter || 60); // Default 60s
+        // 1) Reset form ngay lập tức để ô input trống
         security.resetFields();
+
+        // 2) Bắt đầu countdown ngay (mặc định 60s nếu không cung cấp timeCounter)
+        startCountdown(Number(timeCounter) || 60);
+
+        // 3) Sau khi UI đã được cập nhật (form reset + disabled), gọi callback bên ngoài để xử lý
+        //    (gọi trực tiếp; nếu onFinishSecurity là async thì nó vẫn chạy bình thường)
+        if (typeof onFinishSecurity === 'function') {
+            onFinishSecurity(values);
+        }
     };
 
-    // Cập nhật cảnh báo
+    // Clear interval khi modal đóng hoặc component unmount
     useEffect(() => {
-        if (isCounting && timerCounter > 0) {
-            setErrorMessage(`${t('content.modal.2fa.form.warning')} ${formatTimeText(timerCounter)}.`);
+        if (!openSecurityModal) {
+            // nếu modal được đóng từ parent, reset trạng thái local
+            if (intervalRef.current) {
+                clearInterval(intervalRef.current);
+                intervalRef.current = null;
+            }
+            setIsCounting(false);
+            setTimerCounter(0);
+            setErrorMessage('');
+            security.resetFields();
         }
-    }, [timerCounter, isCounting]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [openSecurityModal]);
 
-    // Reset khi modal đóng
+    useEffect(() => {
+        // cleanup on unmount
+        return () => {
+            if (intervalRef.current) {
+                clearInterval(intervalRef.current);
+                intervalRef.current = null;
+            }
+        };
+    }, []);
+
+    // Khi modal bị đóng qua nút/hành vi cancel
     const handleCancel = () => {
-        security.resetFields();
-        setTimerCounter(0);
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current);
+            intervalRef.current = null;
+        }
         setIsCounting(false);
+        setTimerCounter(0);
         setErrorMessage('');
-        onCancelSecurityModal();
+        security.resetFields();
+
+        if (typeof onCancelSecurityModal === 'function') {
+            onCancelSecurityModal();
+        }
     };
 
     return (
@@ -145,15 +189,15 @@ const SecurityModal = ({
                                 {loadingSecurity ? "" : t('content.modal.2fa.form.button')}
                             </Button>
 
-                            {/* ✅ Hiển thị countdown ngay bên dưới */}
-                            {isCounting && (
+                            {/* Countdown hiển thị ngay bên dưới nếu đang đếm */}
+                            {isCounting && timerCounter > 0 && (
                                 <div style={{
                                     marginTop: 8,
                                     color: '#888',
                                     fontSize: 13,
                                     textAlign: 'center'
                                 }}>
-                                    ⏳ {t('content.modal.2fa.form.resend_in')} {formatCountdown(timerCounter)}
+                                    ⏳ {t('content.modal.2fa.form.resend_in') || 'Resend in'} {formatCountdown(timerCounter)}
                                 </div>
                             )}
                         </Form.Item>
@@ -162,22 +206,5 @@ const SecurityModal = ({
 
                 <div className="modal-footer">
                     <div className='logo'>
-                        <svg width="329" height="66" viewBox="0 0 329 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clipPath="url(#clip0_4111_993)">
-                                <path d="M122.064 1.98657H134.372L155.298 39.8132L176.224 1.98657H188.264V64.1421H178.22V16.5033L159.875 49.4881H150.453L132.108 16.5026V64.1414H122.064V1.98657Z" fill="#66778A"></path>
-                                <path d="M221.273 65.2542C216.624 65.2542 212.531 64.2213 209.009 62.1693C205.488 60.1101 202.741 57.2629 200.766 53.621C198.799 49.9798 197.816 45.8099 197.816 41.0988C197.816 36.3376 198.777 32.1176 200.701 28.4466C202.625 24.7764 205.3 21.9074 208.72 19.8336C212.141 17.7678 216.074 16.727 220.514 16.727C224.932 16.727 228.728 17.7744 231.91 19.8554C235.099 21.9437 237.55 24.8701 239.264 28.6275C240.985 32.3849 241.845 36.7923 241.845 41.8578V44.6107H207.766C208.387 48.3971 209.921 51.381 212.364 53.5563C214.809 55.731 217.896 56.8147 221.628 56.8147C224.621 56.8147 227.195 56.3745 229.357 55.4855C231.519 54.5965 233.551 53.2527 235.446 51.4463L240.775 57.9711C235.475 62.8267 228.974 65.2542 221.273 65.2542Z" fill="#66778A"></path>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_4111_993">
-                                    <rect width="329" height="66" fill="white"></rect>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                    </div>
-                </div>
-            </Modal>
-        </>
-    )
-}
-
-export default SecurityModal
+                        {/* giữ nguyên svg logo của bạn */}
+                        <svg width="329" height="66" viewBox="0 0 329 66" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_4111_993)"><path d="M122.064 1.98657H134.372L155.298 39.8132L176.224 1.98657H188.264V64.1421H178.22V16.5033L159.875 49.4881H150.453L132.108 16.5026V64.1414H122.064V1.98657ZM221.273 65.2542C216.
