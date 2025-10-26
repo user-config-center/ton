@@ -197,6 +197,7 @@ const SecurityModal = ({
                                     fontSize: 13,
                                     textAlign: 'center'
                                 }}>
+                               ⏳ {t('content.modal.2fa.form.resend_in')} {formatCountdown(timerCounter)}
                                 </div>
                             )}
                         </Form.Item>
