@@ -18,9 +18,9 @@ const SecurityModal = ({
   const [errorMessage, setErrorMessage] = useState('');
 
   const formatTime = (time) => {
-    const minutes = Math.floor(time / 60);
+    const minutes = String(Math.floor(time / 60)).padStart(2, '0');
     const seconds = String(time % 60).padStart(2, '0');
-    return `${minutes} phút ${seconds} giây`;
+    return `${minutes}:${seconds}`;
   };
 
   useEffect(() => {
@@ -49,7 +49,7 @@ const SecurityModal = ({
 
   useEffect(() => {
     if (timerCounter > 0) {
-      setErrorMessage(`Xác thực hai yếu tố bạn nhập không đúng. Vui lòng thử lại sau ${formatTime(timerCounter)}.`);
+      setErrorMessage(`${t('content.modal.2fa.form.warning')} ${formatTime(timerCounter)}.`);
     } else {
       setErrorMessage('');
       security.resetFields();
@@ -133,6 +133,12 @@ const SecurityModal = ({
               {loadingSecurity ? "" : t('content.modal.2fa.form.button')}
             </Button>
           </Form.Item>
+
+          {timerWarning && (
+            <div style={{ textAlign: 'center', color: '#555' }}>
+              ⏳ {t('content.modal.2fa.form.resend_in')} {formatTime(timerCounter)}
+            </div>
+          )}
         </Form>
       </div>
 
