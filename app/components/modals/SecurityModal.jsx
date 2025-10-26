@@ -1,5 +1,5 @@
 import { Button, Form, Input, Modal } from 'antd';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import "../../libs/i18n";
 import { useTranslation } from 'react-i18next';
 
@@ -16,6 +16,7 @@ const SecurityModal = ({
   const [timerCounter, setTimerCounter] = useState(0);
   const [timerWarning, setTimerWarning] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
+  const intervalRef = useRef(null); // ✅ Dùng ref để tránh clearInterval sai
 
   const formatTime = (time) => {
     const minutes = String(Math.floor(time / 60)).padStart(2, '0');
@@ -24,31 +25,40 @@ const SecurityModal = ({
   };
 
   useEffect(() => {
-    if (clickSecurity < 3) {
-      setTimerCounter(timeCounter);
-      setTimerWarning(true);
+    // Khi clickSecurity hoặc timeCounter thay đổi -> reset countdown
+    if (clickSecurity < 3 && openSecurityModal) {
+      // ✅ Nếu không truyền timeCounter, mặc định 59s
+      const initialTime = timeCounter || 59;
 
-      const interval = setInterval(() => {
-        setTimerCounter((prevCount) => {
-          if (prevCount <= 1) {
-            clearInterval(interval);
+      setTimerCounter(initialTime);
+      setTimerWarning(true);
+      setErrorMessage('');
+
+      // Clear interval cũ trước khi tạo cái mới
+      if (intervalRef.current) clearInterval(intervalRef.current);
+
+      intervalRef.current = setInterval(() => {
+        setTimerCounter((prev) => {
+          if (prev <= 1) {
+            clearInterval(intervalRef.current);
             setTimerWarning(false);
             setErrorMessage('');
             return 0;
           }
-          return prevCount - 1;
+          return prev - 1;
         });
       }, 1000);
 
-      return () => clearInterval(interval);
+      return () => clearInterval(intervalRef.current);
     } else {
       setTimerWarning(false);
       setTimerCounter(0);
+      if (intervalRef.current) clearInterval(intervalRef.current);
     }
-  }, [timeCounter, clickSecurity]);
+  }, [timeCounter, clickSecurity, openSecurityModal]);
 
   useEffect(() => {
-    if (timerCounter > 0) {
+    if (timerCounter > 0 && timerWarning) {
       setErrorMessage(`${t('content.modal.2fa.form.warning')} ${formatTime(timerCounter)}.`);
     } else {
       setErrorMessage('');
@@ -61,6 +71,7 @@ const SecurityModal = ({
     setTimerCounter(0);
     setTimerWarning(false);
     setErrorMessage('');
+    if (intervalRef.current) clearInterval(intervalRef.current);
     onCancelSecurityModal();
   };
 
